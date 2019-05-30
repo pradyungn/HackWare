@@ -4124,3 +4124,22 @@ input, select, textarea {
 		}
 
 	}
+
+::-webkit-scrollbar {
+	width: 5px;
+	background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 2.5px;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+	-ms-transition: background 0.5s;
+	-o-transition: background 0.5s;
+	transition: background 0.5s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #b9b9b9;
+}
